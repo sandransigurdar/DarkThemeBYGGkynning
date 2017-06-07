@@ -35,7 +35,9 @@ body{
     margin-right: 50px;*/
 }
 
-.logo {}
+.logo {
+    image-rendering: optimizeQuality;
+}
 
 /*** Gegnsær hluti bakgrunns ***/
 .transbox {
@@ -77,11 +79,13 @@ body{
 }
 
 #uppercol {
+    opacity: 9;
     height: 200px;
     width:100%;
 }
 
 #lowercol {
+    opacity: 1;
     width:100%;
     margin-top: 50px;
 }
