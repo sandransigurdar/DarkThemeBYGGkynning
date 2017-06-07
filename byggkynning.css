@@ -38,7 +38,7 @@ body{
     background-image: url("Myndir/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.7;
     filter: alpha(opacity=60); /* For IE8 and earlier */
     /*overflow: auto;*/
     /*padding-bottom: 99px;*/
