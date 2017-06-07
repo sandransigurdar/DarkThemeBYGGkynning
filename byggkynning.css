@@ -24,7 +24,11 @@ body{
 /******************************************************************/
 
 #header {
-    background-image: url("Myndir/headercolor.png");
+    background: rgb(255,161,0); /* Old Browsers */
+    background: -webkit-linear-gradient(top,rgb(255,161,0),rgb(0, 0, 0)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,rgb(255,161,0),rgb(0, 0, 0)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,rgb(255,161,0),rgb(0, 0, 0)); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, rgb(255,161,0), rgb(0, 0, 0)); /*Standard*/
     background-repeat: repeat-x;
     padding: 0px 10px 0px;
     /*margin-left: 50px;
