@@ -28,7 +28,7 @@
                         <img src="Myndir/minnihugmyn.png" alt="" />
                     </div>
                     <!-- Her byrja bubblurnar -->
-                    <div class="item kostnadaraaetlun col-md-2 col-sm-2 col-xs-2">
+                    <div id="kstn" class="item kostnadaraaetlun col-md-2 col-sm-2 col-xs-2">
                         <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
                         <a href="#" class="icon"></a>
                         <h2 class="hidden-xs">Kostnaðaráætlun</h2>
@@ -140,6 +140,39 @@
                 function () {
                     var $this = $(this);
                     $this.find('img').stop().animate({
+                        'width': '250px',
+                        'height': '215px',
+                        'top': '-25px',
+                        'left': '-25px',
+                        'opacity': '1.0'
+
+                    }, 500, 'easeOutBack', function () {
+                        $(this).parent().find('ul').fadeIn(700);
+                    });
+
+                    $this.find('a:first,h2').addClass('active');
+                },
+
+                function () {
+                    var $this = $(this);
+                    $this.find('ul').fadeOut(500);
+                    $this.find('img').stop().animate({
+                        'width': '44px',
+                        'height': '44px',
+                        'top': '3px',
+                        'left': '0px',
+                    }, 5000, 'easeOutBack');
+
+                    $this.find('a:first,h2').removeClass('active');
+                }
+            );
+        });
+                $(function () {
+            $('#kstn').hover(
+
+                function () {
+                    var $this = $(this);
+                    $this.find('img').stop().animate({
                         'width': '287px',
                         'height': '215px',
                         'top': '-25px',
@@ -157,9 +190,9 @@
                     var $this = $(this);
                     $this.find('ul').fadeOut(500);
                     $this.find('img').stop().animate({
-                        'width': '50px',
-                        'height': '50px',
-                        'top': '0px',
+                        'width': '30px',
+                        'height': '30px',
+                        'top': '10px',
                         'left': '0px',
                     }, 5000, 'easeOutBack');
 
@@ -167,6 +200,7 @@
                 }
             );
         });
+
     </script>
 </body>
 
