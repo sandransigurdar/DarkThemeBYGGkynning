@@ -35,7 +35,9 @@ body{
     margin-right: 50px;*/
 }
 
-.logo {}
+.logo {
+    image-rendering: optimizeQuality;
+}
 
 /*** Gegnsær hluti bakgrunns ***/
 .transbox {
@@ -77,11 +79,13 @@ body{
 }
 
 #uppercol {
+    opacity: 9;
     height: 200px;
     width:100%;
 }
 
 #lowercol {
+    opacity: 1;
     width:100%;
     margin-top: 50px;
 }
@@ -101,7 +105,7 @@ body{
     top:160px;
     width: 150px;
     height: 80px;
-    left: 30px;
+    left: 70px;
 }
 
 /***********************************************************/
@@ -128,18 +132,18 @@ body{
 }
 
 .gaedakerfi {
-    left: 50px;
+    left: 100px;
 
 }
 
 .framkvaemdir {
-    left:55px;
+    left:10px;
 
 }
 
 .verkuppgjor {
     top: 50px;
-    left:65px;
+    left:45px;
 }
 
 .handbaekur {
@@ -257,6 +261,7 @@ a.icon {
     -moz-box-shadow:1px 1px 4px #666;
     -webkit-box-shadow:1px 1px 4px #666;
     box-shadow: 1px 1px 4px #666;
+    text-shadow: 1px 1px 1px lightgray;
 }
 
 /* Text um ad skoda lidina betur */
