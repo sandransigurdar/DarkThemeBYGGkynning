@@ -1,5 +1,5 @@
 body{
-    background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg");
+    background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.6em;
@@ -42,11 +42,11 @@ body{
 /*** Gegnsær hluti bakgrunns ***/
 .transbox {
     border: 1px solid black;
-    background-image: url("Myndir/bg.png");
+    background:  linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("Myndir/bgtranspare.png");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
     /*overflow: auto;*/
     padding-bottom: 630px;
     justify-content: center;
