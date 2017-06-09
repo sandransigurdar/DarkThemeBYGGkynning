@@ -62,12 +62,13 @@ body{
 
 .navigation {
     margin: 0px auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    font-family: 'Enriqueta', arial, serif;
     font-size: 99px;
     font-style: normal;
     font-weight: normal;
     color: white;
-    letter-spacing: 1.6px;
+    letter-spacing: 0.7px;
     width: 100%;
     height: 600px;
 }
@@ -116,7 +117,7 @@ body{
 }
 
 .honnun {
-    left:110px;
+    left:130px;
     top: 75px;
 }
 
@@ -213,14 +214,15 @@ a.icon {
     width: 147px;
     height: 52px;
     color:white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Enriqueta', arial, serif;;
+    font-size: 25px;
     top: 0px;
     left: 45px;
     text-indent: 10px;
     line-height: 10px;
     text-shadow: 1px 1px 1px darkgray;
-    text-transform: uppercase;
+    /* text-transform: lowercase; */
 }
 
 .item h2.active{
@@ -237,7 +239,7 @@ a.icon {
 }
 
 .item ul li a{
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -263,9 +265,10 @@ a.icon {
 
 /* Text um ad skoda lidina betur */
 .infotext {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: sans-serif, arial, serif;
     font-size: 32px;
-    font-weight: bolder;
+    font-weight: normal;
     padding-top: 110px;
     padding-left: 35px;
 
@@ -293,3 +296,5 @@ a.icon {
 }
 
 /* Gildir um oll div, kannski otharfi */
+
+/* Reglur fyrir texta hjá myndum */
