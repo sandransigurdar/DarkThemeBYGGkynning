@@ -1,28 +1,19 @@
-body{
-    background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg");
-    background-repeat: no-repeat;
+html {
+    background:  linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg")  no-repeat center center fixed;
     background-size: cover;
-    line-height: 1.6em;
-    color: #333;
-    margin: 0;
-    padding-top: 10px;
-    height: 100%;
-    -webkit-font-smoothing: antialiased; /*Gerir thetta einhvern mun? */
+    min-height: 100%;
+    position: relative;
 }
 
 #page-wrap {
-    align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg")  no-repeat center center fixed;
+    background-size: cover;
     min-height: 100%;
-    width: 97%;
-    overflow: auto;
-    padding-bottom: 150px;
-    margin: 0 auto;
 }
 
 /******************************************************************/
 /*************************** HEADER *******************************/
 /******************************************************************/
-
 #header {
     background: rgb(255,161,0); /* Old Browsers */
     background: -webkit-linear-gradient(top,rgb(255,161,0),rgb(0, 0, 0)); /*Safari 5.1-6*/
@@ -31,46 +22,22 @@ body{
     background: linear-gradient(to bottom, rgb(255,161,0), rgb(0, 0, 0)); /*Standard*/
     background-repeat: repeat-x;
     padding: 0px 10px 0px;
-    /*margin-left: 50px;
-    margin-right: 50px;*/
-}
-
-.logo {
-    image-rendering: optimizeQuality;
-}
-
-/*** Gegnsær hluti bakgrunns ***/
-.transbox {
-    border: 1px solid black;
-    background:  linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("Myndir/bgtranspare.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-    filter: alpha(opacity=90); /* For IE8 and earlier */
-    /*overflow: auto;*/
-    padding-bottom: 630px;
-    justify-content: center;
-    position: static;
-    height: 600px;
-    /*width: 92%;*/
-    margin-bottom: 15px;
 }
 /********************************************************************/
 /********************* MAIN HLUTI SÍÐUNNAR ! ************************/
 /******************** innan í gegnsæja boxinu ***********************/
 /********************************************************************/
-
 .navigation {
-    margin: 0px auto;
-    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
     font-family: 'Enriqueta', arial, serif;
-    font-size: 99px;
-    font-style: normal;
-    font-weight: normal;
     color: white;
     letter-spacing: 0.7px;
-    width: 100%;
-    height: 600px;
+    padding-bottom: 120px;
+    -webkit-font-smoothing: antialiased; /*Gerir fontið meira smooth */
 }
 
 /*** Hvernig stadsetn a bubbles ***/
@@ -79,13 +46,11 @@ body{
 }
 
 #uppercol {
-    opacity: 9;
     height: 200px;
     width:100%;
 }
 
 #lowercol {
-    opacity: 1;
     width:100%;
     margin-top: 50px;
 }
@@ -214,7 +179,6 @@ a.icon {
     width: 147px;
     height: 52px;
     color:white;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-family: 'Enriqueta', arial, serif;;
     font-size: 25px;
     top: 0px;
@@ -271,18 +235,18 @@ a.icon {
     font-weight: normal;
     padding-top: 110px;
     padding-left: 35px;
-
 }
-
 
 /********************************************************************/
 /***************************** FOOTER ! *****************************/
 /********************************************************************/
-#footer {
-    margin-top: -150px;
-    height: 150px;
+#footer { 
     clear: both;
     font: normal .7em Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .page-background-footer {
@@ -294,7 +258,3 @@ a.icon {
     padding: 5px;
     border-top: 1px solid #ccc;
 }
-
-/* Gildir um oll div, kannski otharfi */
-
-/* Reglur fyrir texta hjá myndum */
