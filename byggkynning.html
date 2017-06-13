@@ -33,7 +33,7 @@
                     <h2 class="hidden-xs">Kostnaðaráætlun</h2>
                     <ul>
                         <li><a href="#">Tilboð</a></li>
-                        <li><a href="#">Útboðsform</a></li>
+                        <li><a href="Links/Utbodsgogn.pdf">Útboðsform</a></li>
                         <li><a href="#">Verklýsingar</a></li>
                     </ul>
                 </div>
@@ -65,12 +65,20 @@
                     <h2 class="hidden-xs">Verkáætlun</h2>
                 </div>
             </div>
+            <!-- Miðjudálkur -->
+            <!-- Viðhaldsvalmöguleikinn -->
+            <div id="middlecol" class="row">
+                <div class="vidhald col-md-2 col-sm-2 col-xs-2">
+                    <img src="Myndir/brickwall.png" alt="" />
+                    <div class="content"><a href="Links/Vidhaldskerfid.pdf">Viðhald</a></div>
+                </div>
+            </div>
             <!-- Nedri dalkur -->
             <div id="lowercol" class="row">
                 <div class="item gaedakerfi col-md-3 col-sm-3 col-xs-3">
                     <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
                     <a href="#" class="icon"></a>
-                    <h2 class="hidden-xs">Gæðakerfi</h2>
+                    <h2 class="hidden-xs"><a href="Links/Gaedakerfi.pdf">Gæðakerfi</a></h2>
                     <ul>
                         <li><a href="#">Arkitekta</a></li>
                         <li><a href="#">Verktaka</a></li>
@@ -78,7 +86,7 @@
                         <li><a href="#">Iðnmeistara</a></li>
                     </ul>
                 </div>
-                <div class="item framkvaemdir col-md-2 col-sm-2 col-xs-2">
+                <div id="frkv" class="item framkvaemdir col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/framkv.png" alt="" width="3" height="3" class="circle" />
                     <a href="#" class="icon"></a>
                     <h2 class="hidden-xs">Framkvæmdir</h2>
@@ -86,7 +94,7 @@
                 <div class="item verkuppgjor col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
                     <a href="#" class="icon"></a>
-                    <h2 class="hidden-xs">Verkuppgjör </h2>
+                    <h2 class="hidden-xs"><a href="Links/Verkuppgjorsform.pdf">Verkuppgjör </a></h2>
                     <ul>
                         <li><a href="#">Áfangi 1,2,.. </a></li>
                         <li><a href="#">Samningur</a></li>
@@ -103,7 +111,7 @@
                     </ul>
                 </div>
                 <!-- Her enda bubblurnar -->
-                <div class="fullb col-md-3 col-sm-3 col-xs-3">
+                <div class="fullb col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/klaradtrans.png" alt="" />
                 </div>
             </div>
@@ -139,8 +147,8 @@
                 function () {
                     var $this = $(this);
                     $this.find('img').stop().animate({
-                        'width': '270px',
-                        'height': '215px',
+                        'width': '240px',
+                        'height': '200px',
                         'top': '-25px',
                         'left': '-27px',
                         'opacity': '1.0'
@@ -172,10 +180,43 @@
                 function () {
                     var $this = $(this);
                     $this.find('img').stop().animate({
-                        'width': '320px',
+                        'width': '310px',
                         'height': '215px',
                         'top': '-25px',
                         'left': '-35px',
+                        'opacity': '1.0'
+
+                    }, 500, 'easeOutBack', function () {
+                        $(this).parent().find('ul').fadeIn(700);
+                    });
+
+                    $this.find('a:first,h2').addClass('active');
+                },
+
+                function () {
+                    var $this = $(this);
+                    $this.find('ul').fadeOut(500);
+                    $this.find('img').stop().animate({
+                        'width': '30px',
+                        'height': '30px',
+                        'top': '10px',
+                        'left': '0px',
+                    }, 5000, 'easeOutBack');
+
+                    $this.find('a:first,h2').removeClass('active');
+                }
+            );
+        });
+        $(function () {
+            $('#frkv').hover(
+
+                function () {
+                    var $this = $(this);
+                    $this.find('img').stop().animate({
+                        'width': '271px',
+                        'height': '215px',
+                        'top': '-25px',
+                        'left': '-27px',
                         'opacity': '1.0'
 
                     }, 500, 'easeOutBack', function () {
