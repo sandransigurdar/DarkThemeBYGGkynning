@@ -33,7 +33,7 @@ html {
     height: 100%;
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
-    font-family: 'Enriqueta', arial, serif;
+    font-family: arial, serif;
     color: white;
     letter-spacing: 0.5px;
     padding-bottom: 120px;
@@ -46,28 +46,26 @@ html {
 }
 
 /*********** Stillingar á dálkunum ********/
-
 #uppercol {
     height: 200px;
     width:100%;
 }
 
 #middlecol {
-    height: 80px;
+    height: 90px;
     width:100%;
     text-align: right;
     float: right;
+
 }
 
 #lowercol {
     width:100%;
-
 }
 
 /***********************************************************/
 /****************** Statiskar myndir ***********************/
 /***********************************************************/
-
 .hugm {
     width: 50px;
     height: 25px;
@@ -84,19 +82,35 @@ html {
 }
 
 .vidhald {
-    left: 1200px;    
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+/******* Myndin af mur bakvid Vidhald *******/
+.mur-img {
+    background-image: url("Myndir/brickwall.png");
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
 }
 
 /***** Texti inn í Viðhald mynd ***/
  .content a {
     position: absolute;
-    width: 147px;
-    height: 52px;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
     color:white;
-    font-family: 'Enriqueta', arial, serif;;
+    font-family: arial, serif;;
     font-size: 25px;
-    top: 75px;
-    left: 45px;
+    text-align: center;
     text-indent: 10px;
     line-height: 10px;
     text-shadow: 1px 1px 1px darkgray;
@@ -211,7 +225,7 @@ a.icon {
     width: 147px;
     height: 52px;
     color:white;
-    font-family: 'Enriqueta', arial, serif;;
+    font-family: arial, serif;;
     font-size: 25px;
     top: 0px;
     left: 45px;
