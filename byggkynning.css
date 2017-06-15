@@ -54,7 +54,7 @@ html {
 
 #lowercol {
     margin-top:50px;
-    height: 200px;
+    height: 180px;
     width:100%;
 }
 
@@ -74,7 +74,7 @@ html {
 }
 
 .fullb {
-    top:145px;
+    top:155px;
     width: 150px;
     height: 80px;
 }
@@ -90,25 +90,26 @@ html {
 }
 
 .honnun {
-    left:80px;
+    left:110px;
     top: 55px;
 }
 
 .utbod {
-    left:80px;
-    top: 95px;
+    left:120px;
+    top: 105px;
 }
 
 .verkaaetlun {
-    left: 60px;
-     top:170px;
+    left: 120px;
+     top:190px;
 }
 
 .gaedakerfi {
-    left: 55px;
+    left: 80px;
 }
 
 .framkvaemdir {
+    left: -20px;
 }
 
 .verkuppgjor {
@@ -117,9 +118,11 @@ html {
 
 .handbaekur {
     top: 110px;
+    left: 20px;
 }
 
 .vidhald {
+    left: -35px;
 }
 
 
@@ -202,12 +205,12 @@ a.icon {
 
 .item h2.active{
     color: royalblue;
-    text-shadow:1px 0px 1px white;
+    text-shadow: 1px 0px 1px white;
     letter-spacing: -0.8px;
 }
 
 .item h2 a {
-     color:white;
+     color: white;
      text-decoration: none;
      text-shadow: 1px 1px 1px darkgray;
 }
@@ -215,7 +218,7 @@ a.icon {
 .item h2 a:hover {
     color: royalblue;
     text-decoration: none;
-    text-shadow:1px 0px 1px white;
+    text-shadow: 1px 0px 1px white;
 }
 
 /******* Bubblu listar undir fyrirsognum! ********/
@@ -257,7 +260,6 @@ a.icon {
 /****** Texti um ad skoda lidina betur *******/
 .infotext {
     font-size: 32px;
-    font-weight: normal;
 }
 
 /********************************************************************/
