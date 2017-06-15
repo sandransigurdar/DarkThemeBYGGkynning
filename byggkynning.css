@@ -1,5 +1,6 @@
 html {
-    background:  linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg")  no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg")  no-repeat center center fixed;
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg")  no-repeat center center fixed;
     background-size: cover;
     min-height: 100%;
     position: relative;
@@ -36,9 +37,8 @@ html {
     font-family: arial, serif;
     color: white;
     letter-spacing: -0.6px;
-    padding-bottom: 120px;
     -webkit-font-smoothing: antialiased; /*Gerir fontið meira smooth */
-    padding: 20px;
+    padding: 3px 20px;
 }
 
 /******* Hvernig stadsetn a bubbles *******/
@@ -53,6 +53,7 @@ html {
 }
 
 #lowercol {
+    margin-top:50px;
     height: 200px;
     width:100%;
 }
@@ -89,17 +90,17 @@ html {
 }
 
 .honnun {
-    left:100px;
+    left:80px;
     top: 55px;
 }
 
 .utbod {
-    left:60px;
+    left:80px;
     top: 95px;
 }
 
 .verkaaetlun {
-    left: 30px;
+    left: 60px;
      top:170px;
 }
 
