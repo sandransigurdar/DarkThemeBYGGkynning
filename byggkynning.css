@@ -35,7 +35,7 @@ html {
     filter: alpha(opacity=80); /* For IE8 and earlier */
     font-family: arial, serif;
     color: white;
-    letter-spacing: 0.5px;
+    letter-spacing: -0.6px;
     padding-bottom: 120px;
     -webkit-font-smoothing: antialiased; /*Gerir fontið meira smooth */
     padding: 20px;
@@ -126,7 +126,7 @@ html {
 
 a.icon {
     width: 70px; /* var 52px */
-    height: 69px;/* var 52px */
+    height: 68px;/* var 52px */
     position: absolute;
     top: 0px;
     left: 0px;
@@ -184,7 +184,7 @@ a.icon {
 }
 
 /******* Bubblu fyrirsagnirnar! ********/
-.item h2{
+.item h2 {
     position: absolute;
     width: 147px;
     height: 52px;
@@ -192,7 +192,7 @@ a.icon {
     font-family: arial, serif;;
     font-size: 25px;
     top: 0px;
-    left: 45px;
+    left: 59px;
     text-indent: 10px;
     line-height: 10px;
     text-shadow: 1px 1px 1px darkgray;
@@ -202,7 +202,7 @@ a.icon {
 .item h2.active{
     color: royalblue;
     text-shadow:1px 0px 1px white;
-    letter-spacing: 0px;
+    letter-spacing: -0.8px;
 }
 
 .item h2 a {
@@ -222,7 +222,7 @@ a.icon {
     list-style: none;
     position: absolute;
     top: 40px;
-    left: 18px;
+    left: 28px;
     display: none;
 }
 
@@ -235,9 +235,9 @@ a.icon {
     padding: 3px;
     float: left;
     clear: both;
-    width: 140px; /* lengd á hvítu boxunum með linkunum */
+    width: 130px; /* lengd á hvítu boxunum með linkunum */
     text-shadow: 1px 1px 1px black;
-    letter-spacing: 0px;
+    letter-spacing: -0.1px;
 }
 
 .item ul li a:hover{
