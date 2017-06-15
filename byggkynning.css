@@ -33,11 +33,12 @@ html {
     height: 100%;
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
-    font-family: 'Enriqueta', arial, serif;
+    font-family: arial, serif;
     color: white;
     letter-spacing: 0.5px;
     padding-bottom: 120px;
     -webkit-font-smoothing: antialiased; /*Gerir fontið meira smooth */
+    padding: 20px;
 }
 
 /******* Hvernig stadsetn a bubbles *******/
@@ -46,35 +47,29 @@ html {
 }
 
 /*********** Stillingar á dálkunum ********/
-
 #uppercol {
     height: 200px;
     width:100%;
 }
 
-#middlecol {
-    height: 80px;
+#lowercol {
+    height: 200px;
     width:100%;
-    text-align: right;
-    float: right;
 }
 
-#lowercol {
+#lowestcol {
     width:100%;
-
 }
 
 /***********************************************************/
 /****************** Statiskar myndir ***********************/
 /***********************************************************/
-
 .hugm {
     width: 50px;
     height: 25px;
     opacity: 1;
     filter: alpha(opacity=100); /* For IE8 and earlier */
     top: 10px;
-    left: 20px;
 }
 
 .fullb {
@@ -83,30 +78,7 @@ html {
     height: 80px;
 }
 
-.vidhald {
-    left: 1200px;
-}
 
-/***** Texti inn í Viðhald mynd ***/
- .content a {
-    position: absolute;
-    width: 147px;
-    height: 52px;
-    color:white;
-    font-family: 'Enriqueta', arial, serif;;
-    font-size: 25px;
-    top: 75px;
-    left: 45px;
-    text-indent: 10px;
-    line-height: 10px;
-    text-shadow: 1px 1px 1px darkgray;
-}
-
- .content a:hover {
-    color: royalblue;
-    text-decoration: none;
-    text-shadow:1px 0px 1px white;
-}
 
 /***********************************************************/
 /*** Stadsetning a bubbles fra köntum gegnsæja boxins ***/
@@ -132,11 +104,10 @@ html {
 }
 
 .gaedakerfi {
-    left: 85px;
+    left: 55px;
 }
 
 .framkvaemdir {
-    left: -30px;
 }
 
 .verkuppgjor {
@@ -147,18 +118,22 @@ html {
     top: 110px;
 }
 
-/* útlitsþættir á "bubbles */
+.vidhald {
+}
+
+
+/***** útlitsþættir á "bubbles *****/
 
 a.icon {
-    width: 52px;
-    height: 52px;
+    width: 70px; /* var 52px */
+    height: 69px;/* var 52px */
     position: absolute;
     top: 0px;
     left: 0px;
     cursor: pointer;
 }
 
-/* Númeruðu kúlurnar */
+/***** Númeruðu kúlurnar *****/
 
 .kostnadaraaetlun a.icon {
     background: transparent url("Myndir/no1.png") no-repeat 0px 0px;
@@ -173,7 +148,7 @@ a.icon {
 }
 
 .verkaaetlun a.icon {
-    background: transparent url("Myndir/no4.png") no-repeat 0px 0px;
+    background: transparent url("Myndir/nom4.png") no-repeat 0px 0px;
 }
 
 .gaedakerfi a.icon {
@@ -182,7 +157,6 @@ a.icon {
 
 .framkvaemdir a.icon {
     background: transparent url("Myndir/nom6.png") no-repeat 0px 0px;
-
 }
 
 .verkuppgjor a.icon {
@@ -193,8 +167,12 @@ a.icon {
     background: transparent url("Myndir/no8.png") no-repeat 0px 0px;
 }
 
+.vidhald a.icon {
+    background: transparent url("Myndir/vidh.png") no-repeat 0px 0px;
+}
+
 .navigation .item a.active{
-    background-position: 0px -52px;
+    background-position: 0px -70px;
 }
 
 .item img.circle{
@@ -211,7 +189,7 @@ a.icon {
     width: 147px;
     height: 52px;
     color:white;
-    font-family: 'Enriqueta', arial, serif;;
+    font-family: arial, serif;;
     font-size: 25px;
     top: 0px;
     left: 45px;
@@ -279,8 +257,6 @@ a.icon {
 .infotext {
     font-size: 32px;
     font-weight: normal;
-    padding-top: 90px;
-    padding-left: 35px;
 }
 
 /********************************************************************/
