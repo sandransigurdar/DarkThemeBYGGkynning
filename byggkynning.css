@@ -212,7 +212,7 @@ a.icon {
 }
 
 .item img.circle{
-    position: absolute; 
+    position: absolute;
     width: 180px;
     height: 180px;
     opacity: 0.02;
@@ -286,7 +286,7 @@ a.icon {
     -webkit-box-shadow:1px 1px 4px #666;
     box-shadow: 1px 1px 4px #666;
     text-shadow: 1px 1px 1px lightgray;
-    
+
 }
 
 /****** Texti um ad skoda lidina betur *******/
@@ -300,7 +300,7 @@ a.icon {
 /********************************************************************/
 /***************************** FOOTER ! *****************************/
 /********************************************************************/
-#footer { 
+#footer {
     clear: both;
     font: normal .7em Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
     position: absolute;
@@ -317,4 +317,8 @@ a.icon {
     clear: both;
     padding: 5px;
     border-top: 1px solid #ccc;
+}
+
+.finalImage {
+  border-radius: 25px;
 }
