@@ -13,7 +13,6 @@
 
 <body>
     <div id="page-wrap">
-
         <!-- HER BYRJAR HEADER-INN -->
         <div id="header">
             <a href="https://www.byggkerfid.is/ByggKerfid/">
@@ -34,7 +33,7 @@
                     <h2 class="hidden-xs"><a href="Links/Kostnadaraaetlun.pdf">Kostnaðaráætlun</a></h2>
                     <ul>
                         <li><a href="#">Tilboð</a></li>
-                        <li><a href="Links/Utbodsgogn.pdf">Útboðsform</a></li>
+                        <li><a href="Links/Utbod.pdf">Útboð</a></li>
                         <li><a href="#">Verklýsingar</a></li>
                     </ul>
                 </div>
@@ -68,7 +67,7 @@
             </div>
             <!-- Nedri dalkur -->
             <div id="lowercol" class="row">
-                <div class="item gaedakerfi col-md-3 col-sm-3 col-xs-3">
+                <div class="item gaedakerfi col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
                     <a href="#" class="icon"></a>
                     <h2 class="hidden-xs"><a href="Links/Gaedakerfi.pdf">Gæðakerfi</a></h2>
@@ -94,7 +93,7 @@
                         <li><a href="#">Uppgjör 1,2,3,.. </a></li>
                     </ul>
                 </div>
-                <div class="item handbaekur col-md-2 col-sm-2 col-xs-2">
+                <div class="item handbaekur col-md-3 col-sm-3 col-xs-3">
                     <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
                     <a href="#" class="icon"></a>
                     <h2 class="hidden-xs"><a href="Links/Handbaekur.pdf">Handbækur </a></h2>
@@ -116,10 +115,10 @@
                     <p> lið sem þú vilt skoða betur </p>
                 </div>
                 <!-- Viðhaldsliðurinn -->
-                <div class="item vidhald col-md-2 col-sm-2 col-xs-2">
-                    <img src="Myndir/vidhald_circle.png" alt="" width="3" height="3" class="circle" />
+                <div id="vdhld" class="item vidhald col-md-2 col-sm-2 col-xs-2">
+                    <img src="Myndir/vidhaldbkgr.png" alt="" width="3" height="3" class="circle" />
                     <a href="#" class="icon"></a>
-                    <h2 id ="vidhaldh2" class="hidden-xs"><a href="Links/Vidhaldskerfid.pdf">Viðhald </a></h2>
+                    <h2 id="vidhaldh2" class="hidden-xs"><a href="Links/Vidhaldskerfid.pdf">Viðhald </a></h2>
                 </div>
             </div>
         </div>
@@ -138,65 +137,54 @@
     </div>
 
 
-    <!-- JAVASCRIPT KODINN -->
+    <!-- JAVASCRIPT KODINN FYRIR HREYFINGAR Á BUBBLES-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script type="text/javascript" src="jquery.easing.1.3.js"></script>
     <script type="text/javascript">
         $(function () {
             $('.item').hover(
-
                 function () {
                     var $this = $(this);
+                    
                     $this.find('img').stop().animate({
                         'width': '250px',
                         'height': '200px',
                         'top': '-25px',
                         'left': '-27px',
                         'opacity': '1.0'
-
-                    }, 500, 'easeOutBack', function () {
-                        $(this).parent().find('ul').fadeIn(700);
-                    });
-
+                    }, 500, 'easeOutBack');
                     $this.find('a:first,h2').addClass('active');
                 },
 
                 function () {
                     var $this = $(this);
-                    $this.find('ul').fadeOut(500);
                     $this.find('img').stop().animate({
                         'width': '20px',
                         'height': '20px',
                         'top': '10px',
                         'left': '10px',
                     }, 5000, 'easeOutBack');
-
                     $this.find('a:first,h2').removeClass('active');
                 }
             );
         });
         $(function () {
             $('#kstn').hover(
-
                 function () {
                     var $this = $(this);
+                    
                     $this.find('img').stop().animate({
-                        'width': '310px',
-                        'height': '215px',
+                        'width': '272px',
+                        'height': '190px',
                         'top': '-25px',
-                        'left': '-35px',
-                        'opacity': '1.0'
-
-                    }, 500, 'easeOutBack', function () {
-                        $(this).parent().find('ul').fadeIn(700);
-                    });
-
+                        'left': '-25px',
+                        'opacity': '1'
+                    }, 500, 'easeOutBack');
                     $this.find('a:first,h2').addClass('active');
                 },
 
                 function () {
                     var $this = $(this);
-                    $this.find('ul').fadeOut(500);
                     $this.find('img').stop().animate({
                         'width': '30px',
                         'height': '30px',
@@ -210,26 +198,19 @@
         });
         $(function () {
             $('#frkv').hover(
-
                 function () {
-                    var $this = $(this);
+                    var $this = $(this);          
                     $this.find('img').stop().animate({
-                        'width': '271px',
-                        'height': '215px',
-                        'top': '-25px',
-                        'left': '-27px',
+                        'width': '257px',
+                        'height': '200px',
+                        'top': '-23px',
+                        'left': '-23px',
                         'opacity': '1.0'
-
-                    }, 500, 'easeOutBack', function () {
-                        $(this).parent().find('ul').fadeIn(700);
-                    });
-
+                    }, 500, 'easeOutBack');
                     $this.find('a:first,h2').addClass('active');
                 },
-
                 function () {
                     var $this = $(this);
-                    $this.find('ul').fadeOut(500);
                     $this.find('img').stop().animate({
                         'width': '30px',
                         'height': '30px',
@@ -237,6 +218,33 @@
                         'left': '10px',
                     }, 5000, 'easeOutBack');
 
+                    $this.find('a:first,h2').removeClass('active');
+                }
+            );
+        });
+        $(function () {
+            $('#vdhld').hover(
+                function () {
+                    var $this = $(this);
+                    
+                    $this.find('img').stop().animate({
+                        'width': '250px',
+                        'height': '100px',
+                        'top': '-20px',
+                        'left': '-27px',
+                        'opacity': '1.0'
+                    }, 500, 'easeOutBack');
+                    $this.find('a:first,h2').addClass('active');
+                },
+
+                function () {
+                    var $this = $(this);
+                    $this.find('img').stop().animate({
+                        'width': '20px',
+                        'height': '20px',
+                        'top': '25px',
+                        'left': '10px',
+                    }, 5000, 'easeOutBack');
                     $this.find('a:first,h2').removeClass('active');
                 }
             );
