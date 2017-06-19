@@ -85,6 +85,21 @@ html {
     left: 40px;
 }
 
+.finalImage {
+  border-radius: 25px;
+}
+
+.nextpage {
+    top: 60px;
+    left: 60px;
+}
+
+.nextp {
+    height: 80px;
+    width: 80px;
+}
+
+
 /***********************************************************/
 /*** Stadsetning a bubbles fra köntum gegnsæja boxins ***/
 /***********************************************************/
@@ -104,7 +119,7 @@ html {
 }
 
 .verkaaetlun {
-    left: 200px;
+    left: 170px;
      top:190px;
 }
 
@@ -321,8 +336,4 @@ a.icon {
     clear: both;
     padding: 5px;
     border-top: 1px solid #ccc;
-}
-
-.finalImage {
-  border-radius: 25px;
 }

@@ -29,7 +29,7 @@
                 <!-- Her byrja bubblurnar -->
                 <div id="kstn" class="item kostnadaraaetlun col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
-                    <a href="#" class="icon"></a>
+                    <a href="Links/Kostnadaraaetlun.pdf" class="icon"></a>
                     <h2 class="hidden-xs"><a href="Links/Kostnadaraaetlun.pdf">Kostnaðaráætlun</a></h2>
                     <ul>
                         <li><a href="#">Tilboð</a></li>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="item honnun col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
-                    <a href="#" class="icon"></a>
+                    <a href="Links/Honnun.pdf" class="icon"></a>
                     <h2 class="hidden-xs"><a href="Links/Honnun.pdf"> Hönnun</a></h2>
                     <ul>
                         <li><a href="#">Arkitekt</a></li>
@@ -61,15 +61,20 @@
                 </div>
                 <div class="item verkaaetlun col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/croppedVerk.gif" alt="" width="3" height="3" class="circle" />
-                    <a href="http://www.hannarr.com/samningar/" class="icon"></a>
+                    <a class="icon"></a>
                     <h2 class="hidden-xs">Verkáætlun</h2>
+                </div>
+                <div class="nextpage col-md-2 col-sm-2 col-xs-2">
+                    <a href="https://www.byggkerfid.is/ByggKerfid/reynsluaskrift">
+                    <img src="Myndir/nextpage.png" alt="" class="nextp" />
+                    </a>
                 </div>
             </div>
             <!-- Nedri dalkur -->
             <div id="lowercol" class="row">
                 <div class="item gaedakerfi col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
-                    <a href="#" class="icon"></a>
+                    <a href="Links/Gaedakerfi.pdf" class="icon"></a>
                     <h2 class="hidden-xs"><a href="Links/Gaedakerfi.pdf">Gæðakerfi</a></h2>
                     <ul>
                         <li><a href="#">Arkitekta</a></li>
@@ -85,7 +90,7 @@
                 </div>
                 <div class="item verkuppgjor col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
-                    <a href="#" class="icon"></a>
+                    <a href="Links/Verkuppgjor.pdf" class="icon"></a>
                     <h2 class="hidden-xs"><a href="Links/Verkuppgjor.pdf">Verkuppgjör </a></h2>
                     <ul>
                         <li><a href="#">Áfangi 1,2,.. </a></li>
@@ -95,7 +100,7 @@
                 </div>
                 <div class="item handbaekur col-md-3 col-sm-3 col-xs-3">
                     <img src="Myndir/orange_circle.png" alt="" width="3" height="3" class="circle" />
-                    <a href="#" class="icon"></a>
+                    <a href="Links/Handbaekur.pdf" class="icon"></a>
                     <h2 class="hidden-xs"><a href="Links/Handbaekur.pdf">Handbækur </a></h2>
                     <ul>
                         <li><a href="#">Handbók hússins </a></li>
@@ -117,7 +122,7 @@
                 <!-- Viðhaldsliðurinn -->
                 <div id="vdhld" class="item vidhald col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/vidhaldbkgr.png" alt="" width="3" height="3" class="circle" />
-                    <a href="#" class="icon"></a>
+                    <a href="Links/Vidhaldskerfid.pdf" class="icon"></a>
                     <h2 id="vidhaldh2" class="hidden-xs"><a href="Links/Vidhaldskerfid.pdf">Viðhald </a></h2>
                 </div>
             </div>
@@ -146,7 +151,7 @@
             $('.item').hover(
                 function () {
                     var $this = $(this);
-                    
+
                     $this.find('img').stop().animate({
                         'width': '250px',
                         'height': '200px',
@@ -173,7 +178,7 @@
             $('#kstn').hover(
                 function () {
                     var $this = $(this);
-                    
+
                     $this.find('img').stop().animate({
                         'width': '272px',
                         'height': '190px',
@@ -200,7 +205,7 @@
         $(function () {
             $('#frkv').hover(
                 function () {
-                    var $this = $(this);          
+                    var $this = $(this);
                     $this.find('img').stop().animate({
                         'width': '257px',
                         'height': '200px',
@@ -227,7 +232,7 @@
             $('#vdhld').hover(
                 function () {
                     var $this = $(this);
-                    
+
                     $this.find('img').stop().animate({
                         'width': '250px',
                         'height': '100px',
