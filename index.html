@@ -21,6 +21,17 @@
         </div>
         <!-- MAIN HLUTI SÍÐUNNAR -->
         <div class="navigation">
+            <div id="uppestcol" class="row">
+                <div class="directiontxt col-md-9 col-sm-9 col-xs-9">
+                    <p>Hér eru dæmi um það sem þú getur gert í BYGG-kerfinu</p>
+                </div>
+                <div class="nextpage col-md-2 col-sm-2 col-xs-2">
+                    <h2 class="hidden-xs"><a href="https://www.byggkerfid.is/ByggKerfid/reynsluaskrift">ÁFRAM</a></h2>
+                    <a href="https://www.byggkerfid.is/ByggKerfid/reynsluaskrift">
+                    <img src="Myndir/nextpage.png" alt="" class="nextp" /></a>
+                </div>
+            </div>
+
             <!-- Efri dalkur -->
             <div id="uppercol" class="row">
                 <div class="hugm col-md-2 col-sm-2 col-xs-2">
@@ -64,11 +75,8 @@
                     <a class="icon"></a>
                     <h2 class="hidden-xs">Verkáætlun</h2>
                 </div>
-                <div id="vdhld" class="item vidhald col-md-2 col-sm-2 col-xs-2">
-                    <img src="Myndir/vidhaldbkgr.png" alt="" width="3" height="3" class="circle" />
-                    <a href="Links/Vidhaldskerfid.pdf" class="icon"></a>
-                    <h2 id="vidhaldh2" class="hidden-xs"><a href="Links/Vidhaldskerfid.pdf">Viðhald </a></h2>
-                </div>
+
+
             </div>
             <!-- Nedri dalkur -->
             <div id="lowercol" class="row">
@@ -114,17 +122,17 @@
             </div>
             <!-- Neðsti dálkur -->
             <div id="lowestcol" class="row">
-                <!-- Textinn um bendilinn -->
+                <!-- Textinn um næstu síðu -->
                 <div class="infotext col-md-4 col-sm-4 col-xs-4">
-                    <p> Haltu bendlinum yfir þeim</p>
-                    <p> lið sem þú vilt skoða betur</p>
+                    <p> Smelltu á örina til að fá prufuáskrift</p>
                 </div>
                 <!-- Viðhaldsliðurinn -->
-                <div class="nextpage col-md-2 col-sm-2 col-xs-2">
-                    <a href="https://www.byggkerfid.is/ByggKerfid/reynsluaskrift">
-                    <img src="Myndir/nextpage.png" alt="" class="nextp" />
-                    </a>
+                <div id="vdhld" class="item vidhald col-md-2 col-sm-2 col-xs-2">
+                    <img src="Myndir/vidhaldbkgr.png" alt="" width="3" height="3" class="circle" />
+                    <a href="Links/Vidhaldskerfid.pdf" class="icon"></a>
+                    <h2 id="vidhaldh2" class="hidden-xs"><a href="Links/Vidhaldskerfid.pdf">Viðhald </a></h2>
                 </div>
+
             </div>
         </div>
     </div>
@@ -151,10 +159,9 @@
             $('.item').hover(
                 function () {
                     var $this = $(this);
-
                     $this.find('img').stop().animate({
-                        'width': '250px',
-                        'height': '200px',
+                        'width': '240px',
+                        'height': '190px',
                         'top': '-25px',
                         'left': '-27px',
                         'opacity': '1.0'
@@ -178,12 +185,11 @@
             $('#kstn').hover(
                 function () {
                     var $this = $(this);
-
                     $this.find('img').stop().animate({
-                        'width': '272px',
-                        'height': '190px',
-                        'top': '-25px',
-                        'left': '-25px',
+                        'width': '242px',
+                        'height': '180px',
+                        'top': '-30px',
+                        'left': '-16px',
                         'opacity': '1'
                     }, 500, 'easeOutBack');
                     $this.find('a:first,h2').addClass('active');
@@ -197,7 +203,6 @@
                         'top': '10px',
                         'left': '10px',
                     }, 5000, 'easeOutBack');
-
                     $this.find('a:first,h2').removeClass('active');
                 }
             );
@@ -207,10 +212,10 @@
                 function () {
                     var $this = $(this);
                     $this.find('img').stop().animate({
-                        'width': '257px',
-                        'height': '200px',
-                        'top': '-23px',
-                        'left': '-23px',
+                        'width': '230px',
+                        'height': '170px',
+                        'top': '-28px',
+                        'left': '-16px',
                         'opacity': '1.0'
                     }, 500, 'easeOutBack');
                     $this.find('a:first,h2').addClass('active');

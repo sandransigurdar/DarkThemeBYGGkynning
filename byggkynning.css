@@ -1,14 +1,15 @@
 html {
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3) ) no-repeat center center fixed, url("Myndir/bkg.jpg")  no-repeat center center fixed;
-    background:-webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, -webkit-linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3) ) no-repeat center center fixed, url("Myndir/bkg.jpg")  no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) no-repeat center center fixed, url("Myndir/forsida.jpg")  no-repeat center center fixed;
+    background:-webkit-linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, -webkit-linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) no-repeat center center fixed, url("Myndir/forsida.jpg")  no-repeat center center fixed;
     background-size: cover;
     min-height: 100%;
+    background: grayscale;
     position: relative;
 }
 
 #page-wrap {
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3) ) no-repeat center center fixed, url("Myndir/bkg.jpg")  no-repeat center center fixed;
-    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, -webkit-linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3) ) no-repeat center center fixed, url("Myndir/bkg.jpg")  no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) no-repeat center center fixed, url("Myndir/forsida.jpg")  no-repeat center center fixed;
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, -webkit-linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) no-repeat center center fixed, url("Myndir/forsida.jpg")  no-repeat center center fixed;
     background-size: cover;
     min-height: 100%;
     padding-bottom: 15px;
@@ -38,9 +39,11 @@ html {
     filter: alpha(opacity=80); /* For IE8 and earlier */
     font-family: arial, serif;
     color: white;
+    text-shadow: 1px 1px 1px darkgray;
     letter-spacing: -0.7px;
     -webkit-font-smoothing: antialiased; /*Gerir fontið meira smooth */
-    padding: 0px 20px;
+    padding: 0px 20px 0px 10px;
+
 }
 
 /******* Hvernig stadsetn a bubbles *******/
@@ -49,26 +52,31 @@ html {
 }
 
 /*********** Stillingar á dálkunum ********/
-#uppercol {
-    height: 200px;
+#uppestcol {
+    padding-left: 25px;
+    font-size: 24px;
     width:100%;
     position: relative;
 }
 
-#lowercol {
-    margin-top:65px;
-    margin-left: 20px;
+#uppercol {
     height: 180px;
     width:100%;
     position: relative;
 }
 
-#lowestcol {
+#lowercol {  
+    padding-left: 25px;
+    height: 225px;
+    width:100%;
     position: relative;
-    margin-top: 55px;
+}
+
+#lowestcol {
+    padding-left: 25px;
     height: 100%;
     width:100%;
-    padding-left: 25px;
+    position: relative;
 }
 
 /***********************************************************/
@@ -77,75 +85,83 @@ html {
 .hugm {
     width: 50px;
     height: 25px;
-    top: 110px;
 }
 
 .fullb {
-    top:175px;
+    top:120px;
     width: 150px;
     height: 80px;
-    left: 40px;
+    left: 30px;
 }
 
 .finalImage {
   border-radius: 25px;
 }
 
+/****** 'AFRAM TAKKINN *****/
 .nextpage {
-    top: 30px;
-    left: 110px;
+    left: 70px;
+    display: inline;
+}
+
+.nextpage h2 a {
+    color: lightgreen;
+    text-shadow: 3px 3px 3px darkgreen;
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+    overflow: auto;
 }
 
 .nextp {
+    text-shadow: white;
     height: 80px;
     width: 80px;
+    float: left;
 }
 
+/***********************************************************/
+/************ Stadsetning a bubbles fra köntum  ************/
+/***********************************************************/
 
-/***********************************************************/
-/*** Stadsetning a bubbles fra köntum gegnsæja boxins ***/
-/***********************************************************/
 .kostnadaraaetlun {
-    left:120px;
-    top: 155px;
+    left:60px;
 }
 
 .honnun {
-    left:200px;
-    top: 55px;
+    left:160px;
 }
 
 .utbod {
-    left:230px;
-    top: 105px;
+    left:200px;
+    top: 50px;
 }
 
 .verkaaetlun {
     left: 230px;
-     top:190px;
+    top:120px;
 }
 
 .gaedakerfi {
-  top: 80px;
+    top: 25px;
 }
 
 .framkvaemdir {
-    top: 80px;
-    left: 50px;
+    left: 45px;
 }
 
 .verkuppgjor {
     left: 100px;
-    top: 100px;
+    top: 20px;
 }
 
 .handbaekur {
     left: 140px;
-    top: 160px;
+    top: 100px;
 }
 
 .vidhald {
-    top: 20px;
+
 }
 
 
@@ -217,12 +233,12 @@ a.icon {
     height: 52px;
     color:white;
     font-family: arial, serif;;
-    font-size: 25px;
-    top: 0px;
+    font-size: 24px;
+    top: 10px;
     left: 59px;
     text-indent: 10px;
     line-height: 10px;
-    text-shadow: 1px 1px 1px darkgray;
+    
 }
 
 .item h2.active{
@@ -232,13 +248,14 @@ a.icon {
 }
 
 #kstn h2 {
-    top: 10px;
+    top: 12px;
     left: 58px;
     letter-spacing: -1px;
 }
 
 #kstn h2.active{
-    letter-spacing: -1.8px;
+    letter-spacing: -1.5px;
+    font-size: 22px;
 }
 
 #frkv h2 {
@@ -248,6 +265,7 @@ a.icon {
 
 #frkv h2.active {
     letter-spacing: -1.4px;
+    font-size: 23px;
 }
 
 #vdhld h2 {
@@ -277,7 +295,7 @@ a.icon {
 .item ul {
     list-style: none;
     position: absolute;
-    top: 40px;
+    top: 50px;
     left: 28px;
 }
 
@@ -315,11 +333,14 @@ a.icon {
 
 }
 
-/****** Texti um ad skoda lidina betur *******/
-.infotext {
-    font-size: 20px;
+.directiontxt {
+    padding-top: 20px;
 }
 
+.infotext {
+    font-size: 24px;
+    margin-top: 20px;
+}
 /********************************************************************/
 /***************************** FOOTER ! *****************************/
 /********************************************************************/
