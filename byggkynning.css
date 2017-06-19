@@ -90,8 +90,8 @@ html {
 }
 
 .nextpage {
-    top: 60px;
-    left: 60px;
+    top: 30px;
+    left: 110px;
 }
 
 .nextp {
@@ -104,40 +104,42 @@ html {
 /*** Stadsetning a bubbles fra köntum gegnsæja boxins ***/
 /***********************************************************/
 .kostnadaraaetlun {
-    left:30px;
+    left:120px;
     top: 55px;
 }
 
 .honnun {
-    left:130px;
+    left:200px;
     top: 55px;
 }
 
 .utbod {
-    left:170px;
+    left:230px;
     top: 105px;
 }
 
 .verkaaetlun {
-    left: 170px;
+    left: 230px;
      top:190px;
 }
 
 .gaedakerfi {
+  top: 80px;
 }
 
 .framkvaemdir {
-    left: 80px;
+    top: 80px;
+    left: 50px;
 }
 
 .verkuppgjor {
-    left: 130px;
-    top: 50px;
+    left: 100px;
+    top: 100px;
 }
 
 .handbaekur {
-    left: 170px;
-    top: 110px;
+    left: 140px;
+    top: 160px;
 }
 
 .vidhald {
@@ -284,13 +286,13 @@ a.icon {
     left: 28px;
 }
 
-.item ul li a{
+.item ul li{
     font-size: 13px;
     text-decoration: none;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color:white;
-    padding: 3px;
+    /*padding: 3px;
     float: left;
     clear: both;
     width: 131px; /* lengd á hvítu boxunum með linkunum */
@@ -299,7 +301,7 @@ a.icon {
 }
 
 .item ul li a:hover{
-    background-color:#fff;
+    /*background-color:#fff;
     color:#444;
     -moz-border-radius:5px;
     -webkit-border-radius:5px;
@@ -307,7 +309,7 @@ a.icon {
     -moz-box-shadow:1px 1px 4px #666;
     -webkit-box-shadow:1px 1px 4px #666;
     box-shadow: 1px 1px 4px #666;
-    text-shadow: 1px 1px 1px lightgray;
+    text-shadow: 1px 1px 1px lightgray;*/
 
 }
 
