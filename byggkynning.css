@@ -10,6 +10,7 @@ html {
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, url("http://www.hannarr.com/wp-content/uploads/2014/10/Fors%C3%AD%C3%B0a-minni-750x499.jpg")  no-repeat center center fixed;
     background-size: cover;
     min-height: 100%;
+    padding-bottom: 15px;
 }
 
 /******************************************************************/
@@ -50,17 +51,21 @@ html {
 #uppercol {
     height: 200px;
     width:100%;
+    position: relative;
 }
 
 #lowercol {
-    margin-top:50px;
+    margin-top:65px;
     margin-left: 20px;
     height: 180px;
     width:100%;
+    position: relative;
 }
 
 #lowestcol {
-    margin-top:40px;
+    position: relative;
+    margin-top: 55px;
+    height: 100%;
     width:100%;
 }
 
@@ -74,9 +79,10 @@ html {
 }
 
 .fullb {
-    top:155px;
+    top:175px;
     width: 150px;
     height: 80px;
+    left: 40px;
 }
 
 /***********************************************************/
@@ -88,17 +94,17 @@ html {
 }
 
 .honnun {
-    left:110px;
+    left:130px;
     top: 55px;
 }
 
 .utbod {
-    left:120px;
+    left:170px;
     top: 105px;
 }
 
 .verkaaetlun {
-    left: 120px;
+    left: 200px;
      top:190px;
 }
 
@@ -106,16 +112,16 @@ html {
 }
 
 .framkvaemdir {
-    left: 30px;
+    left: 80px;
 }
 
 .verkuppgjor {
-    left: 80px;
+    left: 130px;
     top: 50px;
 }
 
 .handbaekur {
-    left: 130px;
+    left: 170px;
     top: 110px;
 }
 
@@ -292,7 +298,7 @@ a.icon {
 
 /****** Texti um ad skoda lidina betur *******/
 .infotext {
-    font-size: 32px;
+    font-size: 34px;
 }
 
 /********************************************************************/
