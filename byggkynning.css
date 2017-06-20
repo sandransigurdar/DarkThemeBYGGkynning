@@ -60,14 +60,14 @@ html {
 }
 
 #uppercol {
-    height: 180px;
+    height: 235px;
     width:100%;
     position: relative;
 }
 
 #lowercol {
     padding-left: 25px;
-    height: 200px;
+    height: 180px;
     width:100%;
     position: relative;
 }
@@ -83,6 +83,7 @@ html {
 /****************** Statiskar myndir ***********************/
 /***********************************************************/
 .hugm {
+    top: 10px;
     width: 50px;
     height: 25px;
 }
@@ -91,7 +92,7 @@ html {
     top:120px;
     width: 150px;
     height: 80px;
-    left: 30px;
+    left: 50px;
 }
 
 .finalImage {
@@ -100,7 +101,6 @@ html {
 
 /****** 'AFRAM TAKKINN *****/
 .nextpage {
-    left: 10px;
     display: inline;
     margin-bottom: 15px;
 }
@@ -126,28 +126,32 @@ html {
 /***********************************************************/
 
 .kostnadaraaetlun {
+    top: 30px;
     left:60px;
 }
 
 .honnun {
+    top: 40px;
     left:160px;
 }
 
 .utbod {
     left:200px;
-    top: 50px;
+    top: 90px;
 }
 
 .verkaaetlun {
-    left: 230px;
-    top:120px;
+    left: 210px;
+    top:170px;
 }
 
 .gaedakerfi {
-    top: 25px;
+    left: 25px;
+    top: 10px;
 }
 
 .framkvaemdir {
+    top: 0px;
     left: 45px;
 }
 
@@ -158,11 +162,11 @@ html {
 
 .handbaekur {
     left: 140px;
-    top: 100px;
+    top: 90px;
 }
 
 .vidhald {
-    left: 25px;
+    left: 85px;
     top: 30px;
 }
 
@@ -341,7 +345,7 @@ a.icon {
 
 .infotext {
     font-size: 24px;
-    margin-top: 38px;
+    padding-top: 38px;
 }
 /********************************************************************/
 /***************************** FOOTER ! *****************************/
