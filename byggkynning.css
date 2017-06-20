@@ -223,8 +223,8 @@ a.icon {
     position: absolute;
     width: 180px;
     height: 180px;
-    opacity: 0.02;
-    filter: alpha(opacity=2);
+    opacity: 0.001;
+    filter: alpha(opacity=0.1);
 }
 
 /******* Bubblu fyrirsagnirnar! ********/
