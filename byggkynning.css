@@ -1,16 +1,18 @@
 html {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, black no-repeat center center fixed;
-    background:-webkit-linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat fixed, black no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, black no-repeat center center fixed;
+    background:-webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat fixed, black no-repeat center center fixed;
     background-size: cover;
     min-height: 100%;
     min-width: 100%;
     background: grayscale;
     position: relative;
+
+
 }
 
 #page-wrap {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, black no-repeat center center fixed;
-    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat fixed, black no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat center fixed, black no-repeat center center fixed;
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) no-repeat center center fixed, url("Myndir/bgtr.png") no-repeat fixed, black no-repeat center center fixed;
     background-size: cover;
     min-height: 100%;
     min-width: 100%;
@@ -22,13 +24,13 @@ html {
 /*************************** HEADER *******************************/
 /******************************************************************/
 #header {
-    background: rgb(255,161,0); /* Old Browsers */
-    background: -webkit-linear-gradient(top,rgb(255,161,0),rgb(0, 0, 0)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top,rgb(255,161,0),rgb(0, 0, 0)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top,rgb(255,161,0),rgb(0, 0, 0)); /*Fx 3.6-15*/
+    background: darkgray; /* Old Browsers */
+    background: -webkit-linear-gradient(top,darkgrey,rgb(0, 0, 0)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,darkgrey,rgb(0, 0, 0)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,darkgrey,rgb(0, 0, 0)); /*Fx 3.6-15*/
     background: linear-gradient(to bottom, darkgray, rgb(0, 0, 0)); /*Standard*/
     background-repeat: repeat-x;
-    padding: 13px 35px 0px;
+    padding: 13px 35px 5px;
 }
 /********************************************************************/
 /********************* MAIN HLUTI SÍÐUNNAR ! ************************/
@@ -88,12 +90,13 @@ html {
 /****************** Statiskar myndir ***********************/
 /***********************************************************/
 .hugm {
+
     width: 50px;
     height: 25px;
 }
 
 .fullb {
-    top:120px;
+    top:110px;
     width: 150px;
     height: 80px;
     left: 50px;
@@ -152,11 +155,11 @@ html {
 
 .gaedakerfi {
     top: 7px;
-
+    left: 25px;
 }
 
 .framkvaemdir {
-    top: -5px;
+    top: -10px;
     left: 45px;
 }
 
@@ -331,26 +334,13 @@ a.icon {
     letter-spacing: -0.1px;
 }
 
-.item ul li a:hover{
-    /*background-color:#fff;
-    color:#444;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
-    -moz-box-shadow:1px 1px 4px #666;
-    -webkit-box-shadow:1px 1px 4px #666;
-    box-shadow: 1px 1px 4px #666;
-    text-shadow: 1px 1px 1px lightgray;*/
-
-}
-
 .directiontxt {
     padding-top: 20px;
 }
 
 .infotext {
     font-size: 24px;
-    padding-top: 38px;
+    padding-top: 42px;
 }
 /********************************************************************/
 /***************************** FOOTER ! *****************************/
