@@ -149,7 +149,7 @@ html {
 
 .verkaaetlun {
     left: 210px;
-    top:170px;
+    top: 150px;
 }
 
 .gaedakerfi {
@@ -262,11 +262,12 @@ a.icon {
 
 #kstn h2 {
     top: 12px;
-    left: 58px;
+    left: 57px;
     letter-spacing: -1px;
 }
 
 #kstn h2.active{
+    left: 56px;
     letter-spacing: -1.5px;
     font-size: 22px;
 }
@@ -278,7 +279,7 @@ a.icon {
 
 #frkv h2.active {
     letter-spacing: -1.4px;
-    font-size: 23px;
+    font-size: 22px;
 }
 
 #vdhld h2 {
@@ -309,14 +310,14 @@ a.icon {
     list-style: none;
     position: absolute;
     top: 50px;
-    left: 28px;
+    left: 33px;
 }
 
 #kstn ul {
     list-style: none;
     position: absolute;
     top: 50px;
-    left: 28px;
+    left: 31px;
 }
 
 .item ul li{
