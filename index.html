@@ -5,8 +5,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="byggkynning.css" media="screen">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous"> -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
     <link rel="icon" href="http://www.hannarr.com/wp-content/uploads/2016/12/logo_hus_350_350-45x45.png" sizes="32x32">
     <title>BYGG kynning</title>
 </head>
@@ -25,84 +27,70 @@
                 <div class="directiontxt col-md-9 col-sm-9 col-xs-9">
                     <p>Hér eru dæmi um það sem þú getur gert í BYGG-kerfinu</p>
                 </div>
-                <div id="vdhld" class="item vidhald hidden-sm hidden-xs col-md-2 col-sm-2 col-xs-2">
+                <div id="vdhld" class="item vidhald hidden-xs col-md-2 col-sm-2 col-xs-2">
                     <img src="Myndir/vidhaldbkgr.png" alt="" width="3" height="3" class="circle" />
                     <a href="Links/Vidhaldskerfid.pdf" class="icon"></a>
                     <h2 id="vidhaldh2" class="hidden-xs"><a href="Links/Vidhaldskerfid.pdf">Viðhald </a></h2>
                 </div>
             </div>
-            <div class="panel-wrapper hidden-lg hidden-xl hidden-md hidden-sm">
+            <div id="panels" class="panel-group hidden-lg hidden-xl hidden-md hidden-sm">
+                <div class="panel panel-primary">
+                  <div class="panel-heading text-center">
+                      <h4>
+                        <a href="Links/Kostnadaraaetlun.pdf">Kostnaðaráætlun</a>
+                      </h4>
+                  </div>
+                </div>
                 <div class="panel panel-default">
-                  <div class="panel-heading">
-                      <h4 class="panel-title">
-                          <a data-toggle="collapse" href="#collapse1">Kostnaðaráætlun</a>
+                  <div class="panel-heading text-center">
+                      <h4>
+                          <a href="Links/Honnun.pdf"> Hönnun</a>
                       </h4>
                   </div>
-                  <div class="panel-body">
-                      Tilboð
-                      Útboð
-                      Verklýsingar
-                  </div>
-                  <div class="panel-heading">
-                      <h4 class="panel-title">
-                          <a data-toggle="collapse" href="#collapse1">Kostnaðaráætlun</a>
+                </div>
+                <div class="panel panel-primary">
+                  <div class="panel-heading text-center">
+                      <h4>
+                          <a href="Links/Utbod.pdf">Útboð</a>
                       </h4>
                   </div>
-                  <div class="panel-body">
-                      Tilboð
-                      Útboð
-                      Verklýsingar
-                  </div>
-                  <div class="panel-heading">
-                      <h4 class="panel-title">
-                          <a data-toggle="collapse" href="#collapse1">Kostnaðaráætlun</a>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center">
+                      <h4>
+                          <a href="Links/Gaedakerfi.pdf">Gæðakerfi</a>
                       </h4>
                   </div>
-                  <div class="panel-body">
-                      Tilboð
-                      Útboð
-                      Verklýsingar
-                  </div>
-                  <div class="panel-heading">
-                      <h4 class="panel-title">
-                          <a data-toggle="collapse" href="#collapse1">Kostnaðaráætlun</a>
+                </div>
+                <div class="panel panel-primary">
+                  <div class="panel-heading text-center">
+                      <h4>
+                          <a href="Links/Verkuppgjor.pdf">Verkuppgjör </a>
                       </h4>
                   </div>
-                  <div class="panel-body">
-                      Tilboð
-                      Útboð
-                      Verklýsingar
-                  </div>
-                  <div class="panel-heading">
-                      <h4 class="panel-title">
-                          <a data-toggle="collapse" href="#collapse1">Kostnaðaráætlun</a>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center">
+                      <h4>
+                          <a href="Links/Handbaekur.pdf">Handbækur </a>
                       </h4>
                   </div>
-                  <div class="panel-body">
-                      Tilboð
-                      Útboð
-                      Verklýsingar
-                  </div>
-                  <div class="panel-heading">
-                      <h4 class="panel-title">
-                          <a data-toggle="collapse" href="#collapse1">Kostnaðaráætlun</a>
+                </div>
+                <div class="panel panel-primary">
+                  <div class="panel-heading text-center">
+                      <h4>
+                          <a href="Links/Vidhaldskerfid.pdf">Viðhald </a>
                       </h4>
                   </div>
-                  <div class="panel-body">
-                      Tilboð
-                      Útboð
-                      Verklýsingar
-                  </div>
-                  <div class="panel-heading">
-                      <h4 class="panel-title">
-                          <a data-toggle="collapse" href="#collapse1">Kostnaðaráætlun</a>
+                </div>
+                <div class="panel panel-default" id="next">
+                  <div class="afram">
+                  <div class="panel-heading text-center">
+                      <h4>
+                          <a href="https://www.byggkerfid.is/ByggKerfid/reynsluaskrift">ÁFRAM</a>
                       </h4>
                   </div>
-                  <div class="panel-body">
-                      Tilboð
-                      Útboð
-                      Verklýsingar
-                  </div>
+                </div>
                 </div>
             </div>
 
