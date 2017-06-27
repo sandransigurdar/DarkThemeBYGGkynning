@@ -177,6 +177,35 @@ html {
     top: 30px;
 }
 
+/* Staðsetning bubblur i medium screen */
+
+.kostnadaraaetlun-med {
+    left: 25px;
+}
+
+.gaedakerfi-med {
+  right: 0px;
+}
+
+.verkaaetlun-med {
+  left: 200px;
+  top: 170px;
+}
+
+.framkvaemdir-med {
+    top: -20px;
+    left: 75px;
+}
+
+.verkuppgjor-med {
+    left: 125px;
+    top: 20px;
+}
+
+.handbaekur-med {
+  left: 190px;
+  top: 90px;
+}
 
 /***** útlitsþættir á "bubbles *****/
 
@@ -195,6 +224,10 @@ a.icon {
     background: transparent url("Myndir/no1.png") no-repeat 0px 0px;
 }
 
+.kostnadaraaetlun-med a.icon {
+    background: transparent url("Myndir/no1.png") no-repeat 0px 0px;
+}
+
 .honnun a.icon {
     background: transparent url("Myndir/no2.png") no-repeat 0px 0px;
 }
@@ -207,7 +240,15 @@ a.icon {
     background: transparent url("Myndir/nom4.png") no-repeat 0px 0px;
 }
 
+.verkaaetlun-med a.icon {
+    background: transparent url("Myndir/nom4.png") no-repeat 0px 0px;
+}
+
 .gaedakerfi a.icon {
+    background: transparent url("Myndir/no5.png") no-repeat 0px 0px;
+}
+
+.gaedakerfi-med a.icon {
     background: transparent url("Myndir/no5.png") no-repeat 0px 0px;
 }
 
@@ -215,11 +256,23 @@ a.icon {
     background: transparent url("Myndir/no6.png") no-repeat 0px 0px;
 }
 
+.framkvaemdir-med a.icon {
+    background: transparent url("Myndir/no6.png") no-repeat 0px 0px;
+}
+
 .verkuppgjor a.icon {
     background: transparent url("Myndir/no7.png") no-repeat 0px 0px;
 }
 
+.verkuppgjor-med a.icon {
+    background: transparent url("Myndir/no7.png") no-repeat 0px 0px;
+}
+
 .handbaekur a.icon {
+    background: transparent url("Myndir/no8.png") no-repeat 0px 0px;
+}
+
+.handbaekur-med a.icon {
     background: transparent url("Myndir/no8.png") no-repeat 0px 0px;
 }
 
@@ -350,6 +403,14 @@ a.icon {
 .panel-warning > .panel-heading {
   background: -webkit-radial-gradient(rgb(255, 201, 14), rgb(191, 151, 11))!important;
   background: radial-gradient(rgb(255, 201, 14), rgb(191, 151, 11))!important;
+}
+
+.panel-default > .panel-heading a {
+    color: black !important;
+}
+
+.panel-primary > .panel-heading a {
+
 }
 
 .panel-default , #next{
