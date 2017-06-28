@@ -6,8 +6,6 @@ html {
     min-width: 100%;
     background: grayscale;
     position: relative;
-
-
 }
 
 #page-wrap {
@@ -17,7 +15,6 @@ html {
     min-height: 100%;
     min-width: 100%;
     padding-bottom: 65px;
-
 }
 
 /******************************************************************/
@@ -34,7 +31,6 @@ html {
 }
 /********************************************************************/
 /********************* MAIN HLUTI SÍÐUNNAR ! ************************/
-/******************** innan í gegnsæja boxinu ***********************/
 /********************************************************************/
 .navigation {
     background-repeat: no-repeat;
@@ -47,8 +43,7 @@ html {
     text-shadow: 1px 1px 1px darkgray;
     letter-spacing: -0.7px;
     -webkit-font-smoothing: antialiased; /*Gerir fontið meira smooth */
-    padding: 0px 20px 0px 10px;
-
+    padding: 0px 20px 20px 10px; /*Haegri, |, nidri, **/
 }
 
 /******* Hvernig stadsetn a bubbles *******/
@@ -67,14 +62,14 @@ html {
 }
 
 #uppercol {
-    height: 235px;
+    height: 230px;
     width:100%;
     position: relative;
 }
 
 #lowercol {
     padding-left: 25px;
-    height: 180px;
+    height: 185px;
     width:100%;
     position: relative;
 }
@@ -98,7 +93,7 @@ html {
     top:110px;
     width: 150px;
     height: 80px;
-    left: 50px;
+    left: 60px;
 }
 
 .finalImage {
@@ -109,6 +104,7 @@ html {
 .nextpage {
     display: inline;
     right:40px;
+    top: 5px;
 }
 
 .nextpage h2 a {
@@ -144,7 +140,6 @@ html {
 .utbod {
     top: 65px;
     left:190px;
-
 }
 
 .verkaaetlun {
@@ -153,27 +148,26 @@ html {
 }
 
 .gaedakerfi {
-    top: 5px;
+    top: 10px;
     left: 25px;
 }
 
 .framkvaemdir {
-    top: -10px;
+    top: -5px;
     left: 45px;
 }
 
 .verkuppgjor {
     left: 100px;
-    top: 20px;
+    top: 30px;
 }
 
 .handbaekur {
     left: 150px;
-    top: 90px;
+    top: 100px;
 }
 
-.vidhald {
-    left: 85px;
+.vdhld {
     top: 30px;
 }
 
@@ -276,7 +270,7 @@ a.icon {
     background: transparent url("Myndir/no8.png") no-repeat 0px 0px;
 }
 
-.vidhald a.icon {
+.vdhld a.icon {
     background: transparent url("Myndir/vidh.png") no-repeat 0px 0px;
 }
 
@@ -393,7 +387,7 @@ a.icon {
 
 .infotext {
     font-size: 24px;
-    padding-top: 39px;
+    padding-top: 45px;
 }
 
 /********************************************************************/
@@ -409,10 +403,6 @@ a.icon {
     color: black !important;
 }
 
-.panel-primary > .panel-heading a {
-
-}
-
 .panel-default , #next{
   border-color: green;
 }
@@ -425,14 +415,6 @@ a.icon {
 .panel-default > .afram > .panel-heading a {
     color: black !important;
     font-weight: bold;
-}
-.panel {
-
-}
-
-
-#panels {
-
 }
 
 /********************************************************************/
@@ -450,7 +432,7 @@ a.icon {
 .page-background-footer {
     background-image: url("https://www.byggkerfid.is/ByggKerfid/Content/templates/hannarr/images/BackgroundBottom.gif");
     background-repeat: repeat-x;
-    height: 80px;
+    height: 70px;
     color: White;
     clear: both;
     padding: 5px;
